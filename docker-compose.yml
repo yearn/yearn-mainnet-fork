@@ -1,0 +1,20 @@
+version: '3.7'
+
+networks:
+  yearn-mainnet-fork:
+
+services:
+  ganache:
+    build:
+      context: .
+      args:
+          - WEB3_INFURA_PROJECT_ID
+          - ETHERSCAN_TOKEN
+    ports:
+      - 8545:8545
+    environment:
+      - WEB3_INFURA_PROJECT_ID
+      - ETHERSCAN_TOKEN
+    networks:
+      - yearn-mainnet-fork
+    restart: always
