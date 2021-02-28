@@ -9,7 +9,6 @@ RUN mkdir -p /app/yearn-mainnet-fork
 WORKDIR /app/yearn-mainnet-fork
 
 ADD supply_tokens.py /app/yearn-mainnet-fork/supply_tokens.py
-RUN brownie run supply_tokens.py --network mainnet-fork
 ADD entrypoint.sh /app/yearn-mainnet-fork
 
 ENTRYPOINT ["./entrypoint.sh"]
