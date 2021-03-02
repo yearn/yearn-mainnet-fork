@@ -27,7 +27,7 @@ The first time this will take some minutes to download all dependencies, but any
 
 
 | Wallet address                             | Private key                                                        |
-|:------------------------------------------:|:------------------------------------------------------------------:|
+|:------------------------------------------ |:------------------------------------------------------------------ |
 | 0x9fde0c31B3b21E8031C08A5c43f851c9C6544E35 | 0x8724398c1580e64667ec0c5d8fff0d1f2e3dd59338c114283c1ea8970b5309b4 |
 | 0x5fe0676e41741A3a2d84C41DC46cC991812FE110 | 0xe52789058ba8b5da1c4e82a644fa21d9ceeea35931714a1c12444c0a74e35db7 |
 | 0x5307DB0c8Fb2Dc616B94f3b2f9fe7a99920e5e52 | 0x01ac1291b438aeaa2961d9aef838e359707f33203c7a1fbb1b8bc59a48899b12 |
